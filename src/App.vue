@@ -11,15 +11,14 @@ import FooterComponent from './components/icons/FooterComponent.vue';
 import CardMyprofile from './components/icons/CardMyprofile.vue';
 import SliderVersiTwo from './components/icons/SliderVersiTwo.vue';
 import SliderVersiThree from './components/icons/SliderVersiThree.vue';
+import AboutComponent from './components/icons/AboutComponent.vue';
 </script>
 
 <template>
   <div>
 
     <HeaderComponent />
-    <SliderVersiTwo />
-    <AnimasiVideo/>
-    <SliderVersiThree />
+    <AboutComponent />
     <FooterComponent/>
     
   </div>

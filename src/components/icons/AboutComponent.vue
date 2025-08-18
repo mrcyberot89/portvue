@@ -3,7 +3,7 @@
         <div class="flex   container  h-full w-full justify-center items-center">
             <div class="  h-full md:h-1/2 w-full  -red-400 flex flex-col md:flex-row">
                 <div class="w-full h-1/2 md:w-[40%] md:h-full flex justify-center py-4 px-4">
-                   <img :src="imagesOne" alt="gambar1" class="object-cover h-full w-full  md:w-1/2  shadow-yellow-200">
+                   <img :src="imagesOne" alt="gambar1" class="object-cover h-full w-full  md:w-1/2 border border-white shadow-yellow-200">
                 </div>
                 <div ref="aboutContent" class="flex-col flex justify-center w-full md:w-1/2 items-start py-4 px-4 space-y-12 ">
                     <p class="text-white md:font-semibold text-2xl">About Me</p>
@@ -17,7 +17,7 @@
 
 <script>
 import { ref } from 'vue'
-import imagesOne from '@/assets/gambar5.jpeg'
+import imagesOne from '@/assets/gambar5.png'
 import imagesTwo from '@/components/icons/dark2.jpg'
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger'
