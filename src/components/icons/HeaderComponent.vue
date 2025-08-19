@@ -1,7 +1,7 @@
 <template>
     <div class="relative flex  w-full h-screen md:px-20 px-[10px] overflow-hidden ">
         <div
-            class="container mx-auto grid grid-cols-1 md:grid md:grid-cols-2  md:gap-3 md:mt-32 relative h-[80%] w-full z-10  ">
+            class=" container mx-auto grid grid-cols-1 md:grid md:grid-cols-2  md:gap-3 md:mt-32 relative h-[80%] w-full z-10  ">
             <div ref="navigate"
                 class=" text-[#bf9b30] flex absolute md:row-start-1 row-start-2 left-1/2 -translate-1/2 md:left-0 md:-translate-0 px-5 font-medium space-x-4 md:text-2xl ">
                 <p class="hover:text-white"><a href="#">Work</a></p>
@@ -16,7 +16,7 @@
                     their goals by designing user-centric digital
                     products & interactive experiences.</p>
             </div>
-            <div class="grid  row-start-1 md:col-start-2 items-center justify-center ">
+            <div class="grid  row-start-1 md:col-start-2 items-center justify-center md:justify-end ">
                 <div ref="profile" @mouseenter="mouseenter" @mouseleave="mouseleave" class=" cursor-pointer h-[200px] md:h-[300px] md:w-[300px] lg:h-[400px] lg:w-[400px] bg-cover">
                     <img ref="profileTor"  :src="image" alt="profile" class="object-cover w-full h-full rounded-full shadow-lg shadow-[#bf9b30]">
                 </div>
@@ -29,7 +29,7 @@
                 </button>
             </div>
         </div>
-        <div class="absolute z-0 h-screen w-full top-0 left-0">
+        <div class="absolute z-0 h-screen w-full  top-0 right-0">
             <img :src="dark1" alt="" class="object-cover h-screen w-full">
         </div>
     </div>

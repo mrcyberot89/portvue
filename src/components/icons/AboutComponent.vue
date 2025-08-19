@@ -1,9 +1,9 @@
 <template>
     <div class=" h-screen w-full flex justify-center items-center bg-cover bg-top" :style="{backgroundImage: `url(${imagesTwo})`}">
         <div class="flex   container  h-full w-full justify-center items-center">
-            <div class="  h-full md:h-1/2 w-full  -red-400 flex flex-col md:flex-row">
+            <div class=" h-full md:h-1/2 w-full  -red-400 flex justify-center flex-col md:flex-row">
                 <div class="w-full h-1/2 md:w-[40%] md:h-full flex justify-center py-4 px-4">
-                   <img :src="imagesOne" alt="gambar1" class="object-cover h-full w-full  md:w-1/2 border border-white shadow-yellow-200">
+                   <img :src="imagesOne" alt="gambar1" class="object-cover h-full w-full  md:w-1/2 border border-gray-400 rounded-md ">
                 </div>
                 <div ref="aboutContent" class="flex-col flex justify-center w-full md:w-1/2 items-start py-4 px-4 space-y-12 ">
                     <p ref="title"  class="text-white md:font-semibold text-2xl">About Me</p>
@@ -17,7 +17,7 @@
 
 <script>
 import { ref } from 'vue'
-import imagesOne from '@/assets/gambar5.png'
+import imagesOne from '@/assets/gambar2.jpeg'
 import imagesTwo from '@/components/icons/dark2.jpg'
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger'
