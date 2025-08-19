@@ -1,18 +1,18 @@
 <template> 
     <div ref="containerRef" class="relative h-screen w-full overflow-hidden  flex justify-center items-center z-10 bg-black">
-        <div class=" container   h-1/2 ">
-            <div class=" h-full w-1/2  grid grid-rows-3 mx-auto ">
+        <div class=" container   h-1/2 w-full">
+            <div class=" h-full w-full  grid grid-rows-3 ">
                 <div ref="contactRef" class="mx-auto h-1/2 flex items-center justify-center">
                     <p class="text-white text-4xl font-bold ">Contact Me</p>
                 </div>
-                <div class="mx-auto h-1/2 ">
-                    <p id="subtitle" class=" text-center text-white text-lg md:text-2xl font-semibold">If you are looking to hire a
+                <div class=" h-1/2  w-full">
+                    <p id="subtitle" class=" text-center text-white text-shadow-sm sm:text-lg md:text-2xl font-semibold">If you are looking to hire a
                         product designer,
                         I’m currently available for freelance work</p>
                 </div>
                 <div class="md:px-5 px-5 py-[-20px] justify-center items-center flex  text-black ">
                     <button
-                        class="bg-[#9D9D9D] h-[50px] w-full rounded-sm md:h-[30%] md:w-[40%] cursor-pointer md:rounded-md hover:bg-[#bf9b30]  hover:text-white">
+                        class="bg-[#9D9D9D] h-[50px] w-1/2 rounded-sm md:h-[30%] md:w-[20%] cursor-pointer md:rounded-md hover:bg-[#bf9b30]  hover:text-white">
                         <p class=" font-semibold text-sm">cybrtnox@gmail.com</p>
                     </button>
                 </div>
@@ -57,7 +57,7 @@ export default {
         tl.from(subtitle.lines, {
             ease: 'expo.out',
             stagger: 0.5,
-            duration: 0.1,
+            duration: 0.5,
             scale: 0
         });
     },
