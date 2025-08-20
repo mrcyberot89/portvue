@@ -12,6 +12,7 @@ import CardMyprofile from './components/icons/CardMyprofile.vue';
 import SliderVersiTwo from './components/icons/SliderVersiTwo.vue';
 import SliderVersiThree from './components/icons/SliderVersiThree.vue';
 import AboutComponent from './components/icons/AboutComponent.vue';
+import AboutComponentTwo  from './components/icons/AboutComponentTwo.vue';
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import AboutComponent from './components/icons/AboutComponent.vue';
 
     <HeaderComponent />
     <AboutComponent />
+    <AboutComponentTwo />
     <FooterComponent/>
     
   </div>
