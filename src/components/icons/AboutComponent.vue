@@ -88,7 +88,7 @@ export default  {
                 trigger: aboutContent,
                 start: "top 60%",
                 end: "bottom 20%",
-                toggleActions: "play reverse play reverse",
+                toggleActions: "play reset play reset",
                 markers: false
             }
         });
@@ -100,11 +100,12 @@ export default  {
             scale: 0,
             duration: 1.2,
             ease: 'expo.out',
+            delay: 0.5,
             scrollTrigger: {
                 trigger: imageCon,
                 start: "top 80%",
                 end: "bottom 10%",
-                toggleActions: "play reverse play reverse",
+                toggleActions: "play reset play reset",
                 markers: true
             }
         });
