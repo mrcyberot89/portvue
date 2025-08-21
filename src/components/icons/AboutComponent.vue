@@ -7,7 +7,7 @@
                 </div>
                 <div ref="aboutContent" class="flex-col flex justify-center w-full md:w-1/2 items-start py-4 px-4 space-y-12 ">
                     <p ref="title"  class="text-white md:font-semibold text-2xl">About Me</p>
-                    <p ref="about" class="text-white md:font-semibold md:text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur ipsam fugiat omnis? Minus voluptatum ipsa dolore error aliquid, eveniet maiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora rem omnis suscipit. Accusamus aperiam culpa possimus impedit, deleniti soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consectetur quae vel accusantium. Accusantium provident laborum magnam. Deserunt, possimus eligendi.</p>
+                    <p ref="about" class="text-white md:font-semibold md:text-lg leading-7`">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur ipsam fugiat omnis? Minus voluptatum ipsa dolore error aliquid, eveniet maiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora rem omnis suscipit. Accusamus aperiam culpa possimus impedit, deleniti soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consectetur quae vel accusantium. Accusantium provident laborum magnam. Deserunt, possimus eligendi.</p>
                 </div>
             </div>
         </div>

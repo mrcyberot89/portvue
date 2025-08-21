@@ -20,6 +20,7 @@ import AboutComponentTwo  from './components/icons/AboutComponentTwo.vue';
 
     <HeaderComponent />
     <AboutComponent />
+    <AboutComponentTwo/>
     <FooterComponent/>
     
   </div>
