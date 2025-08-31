@@ -50,9 +50,9 @@ export default  {
         }
     },
     mounted(){
-        const about = this.$refs.about;
         const aboutContent = this.$refs.aboutContent;
         const titleAbout = this.$refs.title;
+        const about = this.$refs.about;
 
         const paragraphSplit = new SplitText(about,{
             type: "lines",
