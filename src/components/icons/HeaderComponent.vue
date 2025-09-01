@@ -156,36 +156,47 @@ export default {
             });
         };
 
-        /*animasi splittex masih error
+       
+
+        const name = ref(null);
         const nameDua = ref(null);
-        
-        const paragraphSplit = new SplitText(nameDua.value, {
-            type: "lines, words"
-        });
-        
-        const animasgsapDua = () => {
-            gsap.from(paragraphSplit.lines, {
-            opacity: 0,
-            yPercent: 100,
-            duration: 1.2,
-            ease: 'expo.out',
-            stagger: 0.09,
-            delay: 1
-        });
-        }
-        */
 
+        const animasiSplitText = () => {
+            if (name.value && nameDua.value) {
+                const paragraphSplit = new SplitText(name.value, {
+                    type: "lines, words"
+                });
+                const paragraphSplitDua = new SplitText(nameDua.value, {
+                    type: "chars, words"
+                });
 
+                gsap.from(paragraphSplit.lines, {
+                    opacity: 0,
+                    yPercent: 100,
+                    duration: 1.2,
+                    ease: 'expo.out',
+                    stagger: 0.09,
+                    delay: 1
+                });
+
+                gsap.from(paragraphSplitDua.words, {
+                    opacity: 0,
+                    yPercent: 100,
+                    duration: 2,
+                    ease: 'expo.out',
+                    stagger: 0.06,
+                    delay: 1
+                });
+            }
+        };
 
         onMounted(() => {
-
             animasiGsap();
-            //animasgsapDua();
-
+            animasiSplitText();
         });
 
-
-        return { image, dark1, navigasiBar,navigate }
+        return { image, dark1, navigasiBar, navigate, name, nameDua };
+    
     }
 }
 
