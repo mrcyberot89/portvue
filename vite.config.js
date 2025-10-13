@@ -18,4 +18,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+    server: {
+        //allowedHosts: true, // ✅ Allow semua host
+        // ATAU
+        allowedHosts: ['develop.42web.io'], // ✅ Allow host spesifik
+    },
 })

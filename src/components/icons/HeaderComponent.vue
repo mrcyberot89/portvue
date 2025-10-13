@@ -24,8 +24,8 @@
             </div>
             <div class="md:px-5 px-5 py-0 items-center flex md:items-start justify-center md:justify-start  text-black">
                 <button
-                    class="bg-[#9D9D9D] shadow-lg shadow-[#000000] h-[50px] w-full rounded-sm md:h-[30%] md:w-[40%] cursor-pointer md:rounded-md hover:bg-[#bf9b30]  hover:text-white">
-                    <p class=" font-semibold">cybrtnox@gmail.com</p>
+                    class="bg-[#9D9D9D] shadow-lg shadow-[#000000] lg:h-[50px]  w-full rounded-sm md:h-[30%] md:w-[40%] cursor-pointer md:rounded-md hover:bg-[#bf9b30]  hover:text-white">
+                    <p class=" font-semibold">cybrtnosx@gmail.com</p>
                 </button>
             </div>
         </div>

@@ -22,7 +22,7 @@
     <div class="border border-gray-500 h-[1px]">
     </div>
     <div class=" bg-black h-14 text-white flex items-center pl-7">
-        <p>Made by Your Name — Copyright 2021</p>
+        <p>Made by Tor — Copyright 2024</p>
     </div>
 </template>
 
