@@ -13,7 +13,7 @@
                 <div class="md:px-5 px-5 py-[-20px] justify-center items-center flex  text-black ">
                     <button
                         class="bg-[#9D9D9D] h-[50px] w-1/2 rounded-sm md:h-[30%] md:w-[20%] cursor-pointer md:rounded-md hover:bg-[#bf9b30]  hover:text-white">
-                        <p class=" font-semibold text-sm">cybrtnox@gmail.com</p>
+                        cybrtnox@gmail.com
                     </button>
                 </div>
             </div>
@@ -60,21 +60,7 @@ export default {
             duration: 0.5,
             scale: 0
         });
-    },
-    setup() {
-
-
     }
-
-
-
-
-
-
-
-
-
-
 }
 
 </script>
