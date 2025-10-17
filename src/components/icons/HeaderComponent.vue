@@ -1,7 +1,7 @@
 <template>
-    <div class="relative flex  w-full h-screen md:px-20 px-[10px] overflow-hidden ">
+    <div class="relative flex  w-full h-screen md:px-20 px-[10px] overflow-hidden">
         <div
-            class=" container mx-auto grid grid-cols-1 md:grid md:grid-cols-2  md:gap-3 md:mt-32 relative h-[80%] w-full z-10  ">
+            class="md:h-50% md:my-16 2xl:my-32 container mx-auto grid grid-cols-1 md:grid md:grid-cols-2  md:gap-3 relative h-[80%] w-full z-10  ">
             <div  ref="navigate"
                 class=" text-[#bf9b30] flex absolute md:row-start-1 row-start-2 left-1/2 -translate-1/2 md:left-0 md:-translate-0 px-5 font-medium space-x-4 md:text-2xl ">
                 <p class="hover:text-white" v-for="item in navigasiBar"><a href="#"> {{ item }}</a></p>
@@ -22,12 +22,12 @@
                         class="object-cover w-full h-full rounded-full shadow-lg shadow-[#bf9b30]">
                 </div>
             </div>
-            <div class="md:px-5 px-5 py-0 items-center flex md:items-start justify-center md:justify-start  text-black">
-                <button
-                    class="bg-[#9D9D9D] shadow-lg shadow-[#000000] lg:h-[50px]  w-full rounded-sm md:h-[30%] md:w-[40%] cursor-pointer md:rounded-md hover:bg-[#bf9b30]  hover:text-white">
-                    <p class=" font-semibold">cybrtnosx@gmail.com</p>
-                </button>
-            </div>
+                <div class="md:px-5 md:mb-10 px-5 py-0 items-center flex md:items-start justify-center md:justify-start  text-black">
+                    <button
+                        class="bg-[#9D9D9D] shadow-lg shadow-[#000000] lg:h-[50px]  w-full rounded-sm md:h-[30%] md:w-[40%] cursor-pointer md:rounded-md hover:bg-[#bf9b30]  hover:text-white">
+                        <p class=" font-semibold">cybrtnox@gmail.com</p>
+                    </button> 
+                </div>
         </div>
         <div class="absolute z-0 h-screen w-full  top-0 right-0">
             <img :src="dark1" alt="" class="object-cover h-screen w-full">
